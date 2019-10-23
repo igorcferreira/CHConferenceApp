@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Video: Codable {
+struct Video: Codable, Identifiable {
+    let id = UUID()
     let title: String
     let speaker: String
     let background: URL

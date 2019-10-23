@@ -19,7 +19,6 @@ struct SponsorView: View {
                         }
                     }
                     .padding()
-                    
                     SponsorWebView(
                         url: sponsorUrl
                     )
