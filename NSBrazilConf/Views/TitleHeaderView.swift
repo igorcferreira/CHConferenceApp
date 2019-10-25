@@ -2,14 +2,21 @@
 import SwiftUI
 
 struct TitleHeaderView: View {
+    init?(feedItem: FeedItem) {
+           guard let item = feedItem as? SubtitleFeedItem else { return nil }
+           self.feedItem = item
+       }
+
+       var feedItem: SubtitleFeedItem
+    
     var body: some View {
         ZStack(alignment: .leading) {
             VStack(alignment: .leading, spacing: 8) {
-                Text("Enquanto a NSBrazil não chega")
+                Text(feedItem.text)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .lineLimit(2)
-                Text("Assista os vídeos das edições anteriores")
+                Text(feedItem.subtext)
                     .font(.body)
                     .foregroundColor(.gray)
             }
@@ -19,10 +26,4 @@ struct TitleHeaderView: View {
 
     }
 
-}
-
-struct TitleHeaderView_Previews: PreviewProvider {
-    static var previews: some View {
-        TitleHeaderView()
-    }
 }

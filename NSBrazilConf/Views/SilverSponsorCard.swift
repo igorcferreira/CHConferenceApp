@@ -9,12 +9,11 @@
 import SwiftUI
 
 struct SilverSponsorCard: View {
-    
-    var item = SponsorViewModel(title: "Air Buddy", image: "ic_airbuddy", background: Color("abColor"))
+    var sponsor: Sponsor
     
     var body: some View {
         ZStack(alignment: .center) {
-            Image(item.image)
+            Image(uiImage: sponsor.logo)
                 .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fit)
@@ -23,7 +22,7 @@ struct SilverSponsorCard: View {
         }
         .frame(width: 48, height: 48)
         .padding(24)
-        .background(item.background)
+        .background(sponsor.background)
         .cornerRadius(10)
         
     }
@@ -31,7 +30,7 @@ struct SilverSponsorCard: View {
 
 struct SilverSponsorCard_Previews: PreviewProvider {
     static var previews: some View {
-        SilverSponsorCard()
+        SilverSponsorCard(sponsor: Sponsor(name: "", link: URL(string: "www")!, image: URL(string: "www")!, backgroundColor: ""))
     }
 }
 

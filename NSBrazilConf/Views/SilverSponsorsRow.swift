@@ -9,28 +9,31 @@
 import SwiftUI
 
 struct SilverSponsorsRow: View {
-    var silverSponsors = silverSponsorsData
-    
-    let sponsorUrl = URL(string: "https://www.apple.com")!
+    var sponsor: SponsorFeedItem
     
     @State var showContent = false
     
     var body: some View {
         VStack(alignment: .leading) {
             Text("Silver")
-                .font(.system(size: 26))
+                .font(.system(size: 18))
                 .fontWeight(.medium)
                 .padding(.leading, 24)
                 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
-                    ForEach(silverSponsors) { item in
+                    ForEach(0..<sponsor.silverSponsors.count) { index in
                         Button(action: { self.showContent.toggle() }) {
                             GeometryReader { geometry in
                                 SilverSponsorCard(
-                                    item: item
+                                    sponsor: self.sponsor.silverSponsors[index]
                                 )
-                                .sheet(isPresented: self.$showContent) { SponsorView(sponsorUrl: self.sponsorUrl, isPresented: self.showContent) }
+                                .sheet(isPresented: self.$showContent) {
+                                    SponsorView(
+                                        sponsorUrl: self.self.sponsor.silverSponsors[index].link,
+                                        isPresented: self.showContent
+                                    )
+                                }
                             }
                             .frame(width: 96, height: 96)
                         }
@@ -41,14 +44,3 @@ struct SilverSponsorsRow: View {
         }
     }
 }
-
-struct SilverSponsorsRow_Previews: PreviewProvider {
-    static var previews: some View {
-        SilverSponsorsRow()
-    }
-}
-
-
-let silverSponsorsData = [
-    SponsorViewModel(title: "AirBuddy", image: "ic_airbuddy", background: Color("abColor"))
-]

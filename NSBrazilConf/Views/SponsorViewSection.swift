@@ -8,21 +8,23 @@
 
 import SwiftUI
 
-struct SponsorsViewSection: View {
+struct SponsorsViewSection: View, FeedViewProtocol {
+    
+    init?(feedItem: FeedItem) {
+           guard let item = feedItem as? SponsorFeedItem else { return nil }
+           self.feedItem = item
+       }
+
+       var feedItem: SponsorFeedItem
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
-            PlatinumSponsorsRow()
+            PlatinumSponsorsRow(sponsor: feedItem)
             HStack {
-                GoldSponsorsRow()
-                SilverSponsorsRow()
+                GoldSponsorsRow(sponsor: feedItem)
+                SilverSponsorsRow(sponsor: feedItem)
                 Spacer()
             }
         }
-    }
-}
-
-struct SponsorsViewSection_Previews: PreviewProvider {
-    static var previews: some View {
-        SponsorsViewSection()
     }
 }

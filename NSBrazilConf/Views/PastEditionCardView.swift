@@ -12,30 +12,32 @@ struct PastEditionCardView: View {
     let video: Video
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
             Text(video.title)
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(Color.white)
-                .padding(30)
-                .lineLimit(6)
+                .padding(.top, 24)
+                .padding()
+                .lineLimit(4)
                 .frame(width: 240)
             Text(video.speaker)
                 .font(.headline)
                 .fontWeight(.bold)
                 .foregroundColor(Color.white)
-                .padding(.leading, 30)
-                .padding(.top, -16)
+                .padding()
                 .lineLimit(1)
             Spacer()
-            Image("Illustration1")
+            Image("ic_play")
                 .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 246, height: 140)
-                .padding(.bottom, 8)
+                .frame(width: 72, height: 72)
+                .padding()
+            Spacer()
+            
         }
-        .background(Color("background10"))
+        .background(video.backgroundColor)
         .cornerRadius(30)
         .frame(width: 246, height: 360)
         .shadow(color: Color.gray.opacity(0.5), radius: 10, x: 0, y: 0)

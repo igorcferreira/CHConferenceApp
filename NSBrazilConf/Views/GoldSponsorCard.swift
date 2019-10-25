@@ -2,12 +2,11 @@
 import SwiftUI
 
 struct GoldSponsorCard: View {
-    
-    var item = SponsorViewModel(title: "iFood", image: "ic_ifood", background: Color("iFoodColor"))
-    
+    var sponsor: Sponsor
+
     var body: some View {
         ZStack(alignment: .leading) {
-            Image(item.image)
+            Image(uiImage: sponsor.logo)
                 .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fit)
@@ -17,7 +16,7 @@ struct GoldSponsorCard: View {
         }
         .frame(width: 48, height: 48)
         .padding(24)
-        .background(item.background)
+        .background(sponsor.background)
         .cornerRadius(10)
         
     }
@@ -25,7 +24,7 @@ struct GoldSponsorCard: View {
 
 struct GoldSponsorCard_Previews: PreviewProvider {
     static var previews: some View {
-        GoldSponsorCard()
+        GoldSponsorCard(sponsor: Sponsor(name: "", link: URL(string: "www")!, image: URL(string: "www")!, backgroundColor: ""))
     }
 }
 

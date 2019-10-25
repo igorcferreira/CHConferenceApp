@@ -3,18 +3,18 @@
 import SwiftUI
 
 struct PlatinumSponsorCard: View {
-    var item = SponsorViewModel(title: "Mercado Livre", image: "ic_merc_livre", background: Color("mcColor"))
+    var sponsor: Sponsor 
     
     var body: some View {
         VStack(alignment: .center) {
-                Image(item.image)
-                    .resizable()
-                    .renderingMode(.original)
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 124, height: 72)
-                    .padding()
+            Image(uiImage: sponsor.logo)
+                .resizable()
+                .renderingMode(.original)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 124, height: 72)
+                .padding()
         }
-        .background(item.background)
+        .background(sponsor.background)
         .cornerRadius(10)
         .frame(width: 124, height: 72)
         .padding(24)
@@ -24,7 +24,7 @@ struct PlatinumSponsorCard: View {
 
 struct SponsorCard_Previews: PreviewProvider {
     static var previews: some View {
-        PlatinumSponsorCard()
+        PlatinumSponsorCard(sponsor: Sponsor(name: "", link: URL(string: "www")!, image: URL(string: "www")!, backgroundColor: ""))
     }
 }
 

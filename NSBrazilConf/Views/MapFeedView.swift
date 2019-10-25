@@ -29,7 +29,7 @@ struct MapFeedView: View, FeedViewProtocol {
         .background(Color.white)
         .cornerRadius(4)
         .frame(maxWidth: .infinity, minHeight: 286)
-        .shadow(color: Color.gray.opacity(0.8), radius: 10, x: 0, y: 0)
+        .shadow(color: Color.gray.opacity(0.4), radius: 8, x: 0, y: 6)
         .padding(.leading, 24)
         .padding(.trailing, 24)
     }

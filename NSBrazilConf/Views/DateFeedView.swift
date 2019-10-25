@@ -28,7 +28,7 @@ struct DateFeedView: View, FeedViewProtocol {
         .cornerRadius(4)
         .padding(.leading, 24)
         .padding(.trailing, 24)
-        .shadow(color: Color.gray.opacity(0.2), radius: 10, x: 0, y: 0)
+        .shadow(color: Color.gray.opacity(0.3), radius: 8, x: 0, y: 6)
     }
 
     private func dateDayView(from date: Date) -> AnyView {
@@ -41,4 +41,6 @@ struct DateFeedView: View, FeedViewProtocol {
         return AnyView(DateDayView(dateText: dateText, dayHourText: dayHourText))
     }
 }
+
+
 

@@ -7,10 +7,21 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct Sponsor: Codable {
+struct Sponsor: Codable, Identifiable {
+    let id = UUID()
     let name: String
     let link: URL
     let image: URL
     let backgroundColor: String
+    
+    
+    var logo: UIImage {
+        return NSBrazilStore.fetchLogo(url: image)
+    }
+    
+    var background: Color {
+        return Color.init(hex: backgroundColor)
+    }
 }
