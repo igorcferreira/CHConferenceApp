@@ -24,7 +24,6 @@ class RemoteImage: ObservableObject {
             // if not, download image from url
             loadUrl(url: imageUrl)
         }
-        
     }
     
     private func apply(data: NSData) {

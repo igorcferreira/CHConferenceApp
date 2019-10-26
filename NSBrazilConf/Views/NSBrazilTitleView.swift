@@ -10,7 +10,7 @@ struct NSBrazilTitleView: View {
                     .fontWeight(.heavy)
                     .foregroundColor(Color.black)
                 Text("Conference 2019")
-                    .foregroundColor(Color.yellow)
+                    .foregroundColor(Color.white)
 
             }
         }

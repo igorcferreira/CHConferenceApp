@@ -15,14 +15,12 @@
 		1D0A954E2342E8F400B2C582 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A953F2342E8F300B2C582 /* Home.swift */; };
 		1D0A954F2342E8F400B2C582 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95402342E8F300B2C582 /* MapView.swift */; };
 		1D0A95502342E8F400B2C582 /* NSBrazilTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95412342E8F300B2C582 /* NSBrazilTitleView.swift */; };
-		1D0A95512342E8F400B2C582 /* DayDateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95422342E8F300B2C582 /* DayDateCardView.swift */; };
 		1D0A95522342E8F400B2C582 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95432342E8F300B2C582 /* HomeList.swift */; };
 		1D0A95532342E8F400B2C582 /* HomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95442342E8F300B2C582 /* HomeTabBar.swift */; };
 		1D0A95542342E8F400B2C582 /* EllipseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95452342E8F300B2C582 /* EllipseHeaderView.swift */; };
 		1D0A95562342E8F400B2C582 /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95472342E8F300B2C582 /* TitleHeaderView.swift */; };
 		1D0A95572342E8F400B2C582 /* TalkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95482342E8F300B2C582 /* TalkDetail.swift */; };
 		1D0A95582342E8F400B2C582 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A95492342E8F300B2C582 /* VideoView.swift */; };
-		1D0A95592342E8F400B2C582 /* MapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A954A2342E8F300B2C582 /* MapCardView.swift */; };
 		1D0A955A2342E8F400B2C582 /* PlatinumSponsorsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A954B2342E8F400B2C582 /* PlatinumSponsorsRow.swift */; };
 		1D0A955B2342E8F400B2C582 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A954C2342E8F400B2C582 /* BlurView.swift */; };
 		1D0A955C2342E8F400B2C582 /* PlatinumSponsorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A954D2342E8F400B2C582 /* PlatinumSponsorCard.swift */; };
@@ -57,6 +55,8 @@
 		1D7A349C23629ED8004C36CC /* SubtitleFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A349B23629ED8004C36CC /* SubtitleFeedItem.swift */; };
 		1D7D1E942363E4EC006C2A05 /* ImageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D1E932363E4EC006C2A05 /* ImageViewContainer.swift */; };
 		1D7D1E962363E704006C2A05 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D1E952363E704006C2A05 /* RemoteImage.swift */; };
+		1D7D1E9B2364B58E006C2A05 /* DayDateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D1E992364B58E006C2A05 /* DayDateCardView.swift */; };
+		1D7D1E9C2364B58E006C2A05 /* MapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D1E9A2364B58E006C2A05 /* MapCardView.swift */; };
 		1D97A1A9235FF34E0024812F /* SponsorWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97A1A8235FF34E0024812F /* SponsorWebView.swift */; };
 		1D97A1AB236000060024812F /* SponsorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97A1AA236000060024812F /* SponsorView.swift */; };
 		1DDBD506234A3B3900A1CDBC /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBD505234A3B3900A1CDBC /* FeedViewModel.swift */; };
@@ -95,14 +95,12 @@
 		1D0A953F2342E8F300B2C582 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1D0A95402342E8F300B2C582 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		1D0A95412342E8F300B2C582 /* NSBrazilTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBrazilTitleView.swift; sourceTree = "<group>"; };
-		1D0A95422342E8F300B2C582 /* DayDateCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayDateCardView.swift; sourceTree = "<group>"; };
 		1D0A95432342E8F300B2C582 /* HomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		1D0A95442342E8F300B2C582 /* HomeTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBar.swift; sourceTree = "<group>"; };
 		1D0A95452342E8F300B2C582 /* EllipseHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseHeaderView.swift; sourceTree = "<group>"; };
 		1D0A95472342E8F300B2C582 /* TitleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
 		1D0A95482342E8F300B2C582 /* TalkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkDetail.swift; sourceTree = "<group>"; };
 		1D0A95492342E8F300B2C582 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
-		1D0A954A2342E8F300B2C582 /* MapCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCardView.swift; sourceTree = "<group>"; };
 		1D0A954B2342E8F400B2C582 /* PlatinumSponsorsRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatinumSponsorsRow.swift; sourceTree = "<group>"; };
 		1D0A954C2342E8F400B2C582 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		1D0A954D2342E8F400B2C582 /* PlatinumSponsorCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatinumSponsorCard.swift; sourceTree = "<group>"; };
@@ -137,6 +135,8 @@
 		1D7A349B23629ED8004C36CC /* SubtitleFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleFeedItem.swift; sourceTree = "<group>"; };
 		1D7D1E932363E4EC006C2A05 /* ImageViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewContainer.swift; sourceTree = "<group>"; };
 		1D7D1E952363E704006C2A05 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		1D7D1E992364B58E006C2A05 /* DayDateCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayDateCardView.swift; sourceTree = "<group>"; };
+		1D7D1E9A2364B58E006C2A05 /* MapCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCardView.swift; sourceTree = "<group>"; };
 		1D97A1A8235FF34E0024812F /* SponsorWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorWebView.swift; sourceTree = "<group>"; };
 		1D97A1AA236000060024812F /* SponsorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorView.swift; sourceTree = "<group>"; };
 		1DDBD505234A3B3900A1CDBC /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
@@ -224,33 +224,15 @@
 		1D0A953E2342E8D200B2C582 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1D7D1E9F2364B6E9006C2A05 /* Schedule Detail */,
+				1D7D1E9D2364B5B1006C2A05 /* Schedule */,
+				1D7D1E982364B545006C2A05 /* Home */,
 				1D0A954C2342E8F400B2C582 /* BlurView.swift */,
 				1D0A95492342E8F300B2C582 /* VideoView.swift */,
-				1D0A95422342E8F300B2C582 /* DayDateCardView.swift */,
 				1D0A95452342E8F300B2C582 /* EllipseHeaderView.swift */,
-				1D0A953F2342E8F300B2C582 /* Home.swift */,
-				1D0A95432342E8F300B2C582 /* HomeList.swift */,
 				1D0A95442342E8F300B2C582 /* HomeTabBar.swift */,
-				1D0A954A2342E8F300B2C582 /* MapCardView.swift */,
 				1D0A95402342E8F300B2C582 /* MapView.swift */,
 				1D0A95412342E8F300B2C582 /* NSBrazilTitleView.swift */,
-				1D0A954D2342E8F400B2C582 /* PlatinumSponsorCard.swift */,
-				1D0A954B2342E8F400B2C582 /* PlatinumSponsorsRow.swift */,
-				1D0A95472342E8F300B2C582 /* TitleHeaderView.swift */,
-				1D0A95482342E8F300B2C582 /* TalkDetail.swift */,
-				1D0A95932342FCF400B2C582 /* ScheduleListView.swift */,
-				1D0A95952342FF5400B2C582 /* CocoaHeadsTitleView.swift */,
-				B48254A1234ABC130008A035 /* DateFeedView.swift */,
-				B4A54FFC234BDBC9003CFEFA /* MapFeedView.swift */,
-				1D75D5A4235E97F300BA051E /* GoldSponsorCard.swift */,
-				1D75D5A6235E9C6D00BA051E /* GoldSponsorsRow.swift */,
-				1D75D5A8235E9C8000BA051E /* SilverSponsorsRow.swift */,
-				1D75D5AA235EA06B00BA051E /* SilverSponsorCard.swift */,
-				1D97A1A8235FF34E0024812F /* SponsorWebView.swift */,
-				1D97A1AA236000060024812F /* SponsorView.swift */,
-				3DD10CA02360D95900A74997 /* SponsorViewSection.swift */,
-				3DD10CA22360D9D500A74997 /* PastVideosViewSection.swift */,
-				3DD10CA42360DB6700A74997 /* PastEditionCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +314,64 @@
 				1D7D1E952363E704006C2A05 /* RemoteImage.swift */,
 			);
 			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		1D7D1E972364B4C6006C2A05 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A95472342E8F300B2C582 /* TitleHeaderView.swift */,
+				1D7D1E992364B58E006C2A05 /* DayDateCardView.swift */,
+				1D7D1E9A2364B58E006C2A05 /* MapCardView.swift */,
+				1D0A95952342FF5400B2C582 /* CocoaHeadsTitleView.swift */,
+				B48254A1234ABC130008A035 /* DateFeedView.swift */,
+				B4A54FFC234BDBC9003CFEFA /* MapFeedView.swift */,
+				3DD10CA22360D9D500A74997 /* PastVideosViewSection.swift */,
+				3DD10CA42360DB6700A74997 /* PastEditionCardView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		1D7D1E982364B545006C2A05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D1E9E2364B5DD006C2A05 /* Sponsors */,
+				1D0A953F2342E8F300B2C582 /* Home.swift */,
+				1D0A95432342E8F300B2C582 /* HomeList.swift */,
+				1D7D1E972364B4C6006C2A05 /* Feed */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1D7D1E9D2364B5B1006C2A05 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A95932342FCF400B2C582 /* ScheduleListView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		1D7D1E9E2364B5DD006C2A05 /* Sponsors */ = {
+			isa = PBXGroup;
+			children = (
+				1D97A1A8235FF34E0024812F /* SponsorWebView.swift */,
+				1D97A1AA236000060024812F /* SponsorView.swift */,
+				1D0A954D2342E8F400B2C582 /* PlatinumSponsorCard.swift */,
+				1D0A954B2342E8F400B2C582 /* PlatinumSponsorsRow.swift */,
+				1D75D5A4235E97F300BA051E /* GoldSponsorCard.swift */,
+				1D75D5A6235E9C6D00BA051E /* GoldSponsorsRow.swift */,
+				1D75D5A8235E9C8000BA051E /* SilverSponsorsRow.swift */,
+				1D75D5AA235EA06B00BA051E /* SilverSponsorCard.swift */,
+				3DD10CA02360D95900A74997 /* SponsorViewSection.swift */,
+			);
+			path = Sponsors;
+			sourceTree = "<group>";
+		};
+		1D7D1E9F2364B6E9006C2A05 /* Schedule Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A95482342E8F300B2C582 /* TalkDetail.swift */,
+			);
+			path = "Schedule Detail";
 			sourceTree = "<group>";
 		};
 		1DDBD504234A3B1300A1CDBC /* ViewModels */ = {
@@ -448,6 +488,7 @@
 				1D5CF9EE2344358500999A51 /* NSBrazilData.swift in Sources */,
 				1D0A952B2342E87500B2C582 /* AppDelegate.swift in Sources */,
 				B4106AE2234A8FBF007F0F74 /* FilterFeedItem.swift in Sources */,
+				1D7D1E9B2364B58E006C2A05 /* DayDateCardView.swift in Sources */,
 				1D0A95892342F0F800B2C582 /* TalkModel.swift in Sources */,
 				1D7D1E942363E4EC006C2A05 /* ImageViewContainer.swift in Sources */,
 				1D0A952D2342E87600B2C582 /* SceneDelegate.swift in Sources */,
@@ -487,13 +528,13 @@
 				B4106AD2234A8ED3007F0F74 /* DateFeedItem.swift in Sources */,
 				B4A54FFD234BDBC9003CFEFA /* MapFeedView.swift in Sources */,
 				B4106AD8234A8F15007F0F74 /* VideoFeedItem.swift in Sources */,
+				1D7D1E9C2364B58E006C2A05 /* MapCardView.swift in Sources */,
 				1DDBD506234A3B3900A1CDBC /* FeedViewModel.swift in Sources */,
 				1D0A95882342F0F800B2C582 /* FeedModel.swift in Sources */,
 				3DD10CA32360D9D500A74997 /* PastVideosViewSection.swift in Sources */,
 				1D0A95922342F35E00B2C582 /* Theme.swift in Sources */,
 				1D0A955A2342E8F400B2C582 /* PlatinumSponsorsRow.swift in Sources */,
 				B4106ACC234A8E85007F0F74 /* FeedItem.swift in Sources */,
-				1D0A95512342E8F400B2C582 /* DayDateCardView.swift in Sources */,
 				1D97A1AB236000060024812F /* SponsorView.swift in Sources */,
 				1D0A95862342F0F800B2C582 /* RoomModel.swift in Sources */,
 				B48254A2234ABC130008A035 /* DateFeedView.swift in Sources */,
@@ -509,7 +550,6 @@
 				1D75D5A5235E97F300BA051E /* GoldSponsorCard.swift in Sources */,
 				1D0A95692342EB1A00B2C582 /* NSBrazilStore.swift in Sources */,
 				B4106ACE234A8EA0007F0F74 /* FeedItemType.swift in Sources */,
-				1D0A95592342E8F400B2C582 /* MapCardView.swift in Sources */,
 				1D75D5AB235EA06B00BA051E /* SilverSponsorCard.swift in Sources */,
 				1D589C65234916A7003D95D8 /* Schedule.swift in Sources */,
 				1D0A95762342F05900B2C582 /* UserDefaults+CHConf.swift in Sources */,

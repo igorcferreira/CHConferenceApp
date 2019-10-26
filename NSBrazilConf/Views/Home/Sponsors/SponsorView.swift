@@ -4,7 +4,7 @@ import SwiftUI
 struct SponsorView: View {
     @Environment(\.presentationMode) var presentationMode
     
-    var sponsorUrl = URL(string: "https://www.apple.com")!
+    var sponsorUrl: URL
     
     @State var isPresented = false
     
@@ -25,12 +25,6 @@ struct SponsorView: View {
                 }
             }
 
-    }
-}
-
-struct SponsorView_Previews: PreviewProvider {
-    static var previews: some View {
-        SponsorView()
     }
 }
 
