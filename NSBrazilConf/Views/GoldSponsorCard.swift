@@ -6,13 +6,11 @@ struct GoldSponsorCard: View {
 
     var body: some View {
         ZStack(alignment: .leading) {
-            Image(uiImage: sponsor.logo)
-                .resizable()
-                .renderingMode(.original)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 72, height: 48)
-                .padding()
-
+            ImageViewContainer(
+                imageURL: sponsor.image,
+                width: 72,
+                height: 48
+            )
         }
         .frame(width: 48, height: 48)
         .padding(24)

@@ -76,20 +76,7 @@ public final class NSBrazilStore: ObservableObject, Store {
             })
     
     }
-    
-    public static func fetchLogo(url: URL) -> UIImage {
-        print("\nImage URL: \(url)\n")
-        var image: UIImage = UIImage()
-        URLSession.shared.dataTask(with: url) { (data, _, error) in
-            if let data = data, error == nil {
-                DispatchQueue.main.async {
-                    image = UIImage(data: data) ?? UIImage()
-                }
-            }
-        }.resume()
 
-        return image
-    }
 }
 
 

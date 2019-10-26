@@ -18,10 +18,10 @@ struct Sponsor: Codable, Identifiable {
     
     
     var logo: UIImage {
-        return NSBrazilStore.fetchLogo(url: image)
+        return UIImage(named: "ic_merc_livre") ?? UIImage()
     }
     
     var background: Color {
-        return Color.init(hex: backgroundColor)
+        return Color(UIColor.init(hexString: backgroundColor))
     }
 }

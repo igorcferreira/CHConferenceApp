@@ -32,7 +32,7 @@ struct PastEditionCardView: View {
                 .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 72, height: 72)
+                .frame(width: 96, height: 96)
                 .padding()
             Spacer()
             

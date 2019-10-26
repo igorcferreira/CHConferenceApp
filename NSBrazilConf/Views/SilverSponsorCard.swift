@@ -13,12 +13,11 @@ struct SilverSponsorCard: View {
     
     var body: some View {
         ZStack(alignment: .center) {
-            Image(uiImage: sponsor.logo)
-                .resizable()
-                .renderingMode(.original)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 78, height: 78)
-                .padding()
+            ImageViewContainer(
+                imageURL: sponsor.image,
+                width: 72,
+                height: 48
+            )
         }
         .frame(width: 48, height: 48)
         .padding(24)
@@ -30,7 +29,7 @@ struct SilverSponsorCard: View {
 
 struct SilverSponsorCard_Previews: PreviewProvider {
     static var previews: some View {
-        SilverSponsorCard(sponsor: Sponsor(name: "", link: URL(string: "www")!, image: URL(string: "www")!, backgroundColor: ""))
+        SilverSponsorCard(sponsor: Sponsor(name: "", link: URL(string: "https://upload.wikimedia.org")!, image: URL(string: "https://upload.wikimedia.org/wikipedia/pt/0/04/Logotipo_MercadoLivre.png")!, backgroundColor: "#FEE801"))
     }
 }
 

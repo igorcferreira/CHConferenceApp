@@ -7,12 +7,12 @@ struct PlatinumSponsorCard: View {
     
     var body: some View {
         VStack(alignment: .center) {
-            Image(uiImage: sponsor.logo)
-                .resizable()
-                .renderingMode(.original)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 124, height: 72)
-                .padding()
+            ImageViewContainer(
+                imageURL: sponsor.image,
+                width: 124,
+                height: 72
+            )
+
         }
         .background(sponsor.background)
         .cornerRadius(10)

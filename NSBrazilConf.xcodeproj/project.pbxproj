@@ -55,6 +55,8 @@
 		1D75D5A9235E9C8000BA051E /* SilverSponsorsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75D5A8235E9C8000BA051E /* SilverSponsorsRow.swift */; };
 		1D75D5AB235EA06B00BA051E /* SilverSponsorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75D5AA235EA06B00BA051E /* SilverSponsorCard.swift */; };
 		1D7A349C23629ED8004C36CC /* SubtitleFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A349B23629ED8004C36CC /* SubtitleFeedItem.swift */; };
+		1D7D1E942363E4EC006C2A05 /* ImageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D1E932363E4EC006C2A05 /* ImageViewContainer.swift */; };
+		1D7D1E962363E704006C2A05 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D1E952363E704006C2A05 /* RemoteImage.swift */; };
 		1D97A1A9235FF34E0024812F /* SponsorWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97A1A8235FF34E0024812F /* SponsorWebView.swift */; };
 		1D97A1AB236000060024812F /* SponsorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97A1AA236000060024812F /* SponsorView.swift */; };
 		1DDBD506234A3B3900A1CDBC /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBD505234A3B3900A1CDBC /* FeedViewModel.swift */; };
@@ -133,6 +135,8 @@
 		1D75D5A8235E9C8000BA051E /* SilverSponsorsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverSponsorsRow.swift; sourceTree = "<group>"; };
 		1D75D5AA235EA06B00BA051E /* SilverSponsorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverSponsorCard.swift; sourceTree = "<group>"; };
 		1D7A349B23629ED8004C36CC /* SubtitleFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleFeedItem.swift; sourceTree = "<group>"; };
+		1D7D1E932363E4EC006C2A05 /* ImageViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewContainer.swift; sourceTree = "<group>"; };
+		1D7D1E952363E704006C2A05 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		1D97A1A8235FF34E0024812F /* SponsorWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorWebView.swift; sourceTree = "<group>"; };
 		1D97A1AA236000060024812F /* SponsorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorView.swift; sourceTree = "<group>"; };
 		1DDBD505234A3B3900A1CDBC /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
@@ -254,6 +258,7 @@
 		1D0A955D2342E92E00B2C582 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				1D7D1E902363E472006C2A05 /* ImageDownloader */,
 				1D0A955E2342E92E00B2C582 /* PaintCodeStyle.pcvd */,
 				1D0A955F2342E92E00B2C582 /* LocalData.json */,
 				1D589C6223457856003D95D8 /* MockData.json */,
@@ -318,6 +323,15 @@
 				1D589C60234577CB003D95D8 /* Store.swift */,
 			);
 			path = Storage;
+			sourceTree = "<group>";
+		};
+		1D7D1E902363E472006C2A05 /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D1E932363E4EC006C2A05 /* ImageViewContainer.swift */,
+				1D7D1E952363E704006C2A05 /* RemoteImage.swift */,
+			);
+			path = ImageDownloader;
 			sourceTree = "<group>";
 		};
 		1DDBD504234A3B1300A1CDBC /* ViewModels */ = {
@@ -435,6 +449,7 @@
 				1D0A952B2342E87500B2C582 /* AppDelegate.swift in Sources */,
 				B4106AE2234A8FBF007F0F74 /* FilterFeedItem.swift in Sources */,
 				1D0A95892342F0F800B2C582 /* TalkModel.swift in Sources */,
+				1D7D1E942363E4EC006C2A05 /* ImageViewContainer.swift in Sources */,
 				1D0A952D2342E87600B2C582 /* SceneDelegate.swift in Sources */,
 				B4106AD6234A8F07007F0F74 /* Video.swift in Sources */,
 				1D0A955C2342E8F400B2C582 /* PlatinumSponsorCard.swift in Sources */,
@@ -465,6 +480,7 @@
 				1D0A957C2342F0BB00B2C582 /* String+CMTime.swift in Sources */,
 				1D0A954E2342E8F400B2C582 /* Home.swift in Sources */,
 				1D0A95522342E8F400B2C582 /* HomeList.swift in Sources */,
+				1D7D1E962363E704006C2A05 /* RemoteImage.swift in Sources */,
 				B4106ADA234A8F2B007F0F74 /* Sponsor.swift in Sources */,
 				B4106AED234A904E007F0F74 /* HomeFeed.swift in Sources */,
 				1D0A95652342EAF500B2C582 /* UIImage+Color.swift in Sources */,
